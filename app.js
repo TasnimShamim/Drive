@@ -1,5 +1,7 @@
 import express from 'express';
 import userRouter from "./routes/user.routes.js"; // note: .js extension is required
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 app.set('view engine','ejs');

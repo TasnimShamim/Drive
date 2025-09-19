@@ -17,7 +17,7 @@ router.post('/register',
         message:"Invalid data"
       })
     }
-    console.log(errors)
+    // console.log(errors)
     res.send(errors)
 })
 
